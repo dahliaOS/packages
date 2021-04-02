@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "packages": [
+    {
+      "id": "com.noah.helloWorld",
+      "altName": "helloworld",
+      "realName": "Hello World",
+      "version": "1.0-alpha",
+      "description": "Command Line demonstration of the DAP package format",
+      "hash": "853e1a04a50971909394c2b7213cd841",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "dev.flutter.demo",
+      "altName": "flutterdemo",
+      "realName": "Flutter Demo",
+      "version": "1.0-alpha",
+      "description": "Simple demonstration of the Flutter platform",
+      "hash": "ce2aafa1862e7c25abe2168ea8945e23",
+      "architecture": "x86_64"
+    }
+  ]
+}

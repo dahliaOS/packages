@@ -7,6 +7,7 @@
       "realName": "Hello World",
       "version": "1.0-alpha",
       "description": "Command Line demonstration of the DAP package format",
+      "sourceCode": "https://github.com/dahliaOS/pkg",
       "hash": "853e1a04a50971909394c2b7213cd841",
       "architecture": "x86_64"
     },
@@ -16,6 +17,7 @@
       "realName": "Flutter Demo",
       "version": "1.0-alpha",
       "description": "Simple demonstration of the Flutter platform",
+      "sourceCode": "https://github.com/flutter/flutter/",
       "hash": "ce2aafa1862e7c25abe2168ea8945e23",
       "architecture": "x86_64"
     },
@@ -25,6 +27,7 @@
       "realName": "Neofetch",
       "version": "7.1.0",
       "description": "A command-line system information tool written in bash",
+      "sourceCode": "https://github.com/dylanaraps/neofetch/",
       "hash": "1f272c6d11897bfb678b5d6d85e312a9",
       "architecture": "x86_64"
     },
@@ -34,6 +37,18 @@
       "realName": "Htop",
       "version": "3.0.5",
       "description": "An interactive process viewer",
+      "sourceCode": "https://github.com/htop-dev/htop",
+      "hash": "cfd75fd320048091bf172c07de57a72f",
+      "architecture": "x86_64"
+    }
+    ,
+     {
+      "id": "io.dahliaos.pangolin_mobile",
+      "altName": "pangolin_mobile",
+      "realName": "Pangolin Mobile",
+      "version": "210402",
+      "description": "Mobile shell for dahliaOS, written in Flutter",
+      "sourceCode": "https://github.com/dahliaOS/pangolin_mobile",
       "hash": "cfd75fd320048091bf172c07de57a72f",
       "architecture": "x86_64"
     }

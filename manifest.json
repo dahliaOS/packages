@@ -19,5 +19,14 @@
       "hash": "ce2aafa1862e7c25abe2168ea8945e23",
       "architecture": "x86_64"
     }
+     {
+      "id": "git.dylanaraps.neofetch",
+      "altName": "neofetch",
+      "realName": "Neofetch",
+      "version": "7.1.0",
+      "description": "A command-line system information tool written in bash",
+      "hash": "1f272c6d11897bfb678b5d6d85e312a9",
+      "architecture": "x86_64"
+    }
   ]
 }

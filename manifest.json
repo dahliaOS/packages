@@ -27,6 +27,15 @@
       "description": "A command-line system information tool written in bash",
       "hash": "1f272c6d11897bfb678b5d6d85e312a9",
       "architecture": "x86_64"
+    },
+     {
+      "id": "dev.htop.htop",
+      "altName": "htop",
+      "realName": "Htop",
+      "version": "3.0.5",
+      "description": "An interactive process viewer",
+      "hash": "cfd75fd320048091bf172c07de57a72f",
+      "architecture": "x86_64"
     }
   ]
 }

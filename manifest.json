@@ -8,6 +8,7 @@
       "version": "1.0-alpha",
       "description": "Command Line demonstration of the DAP package format",
       "sourceCode": "https://github.com/dahliaOS/pkg",
+      "extRef": "packages",
       "hash": "853e1a04a50971909394c2b7213cd841",
       "architecture": "x86_64"
     },
@@ -18,6 +19,7 @@
       "version": "1.0-alpha",
       "description": "Simple demonstration of the Flutter platform",
       "sourceCode": "https://github.com/flutter/flutter/",
+      "extRef": "packages",
       "hash": "ce2aafa1862e7c25abe2168ea8945e23",
       "architecture": "x86_64"
     },
@@ -28,6 +30,7 @@
       "version": "7.1.0",
       "description": "A command-line system information tool written in bash",
       "sourceCode": "https://github.com/dylanaraps/neofetch/",
+      "extRef": "packages",
       "hash": "1f272c6d11897bfb678b5d6d85e312a9",
       "architecture": "x86_64"
     },
@@ -38,6 +41,7 @@
       "version": "3.0.5",
       "description": "An interactive process viewer",
       "sourceCode": "https://github.com/htop-dev/htop",
+      "extRef": "packages",
       "hash": "cfd75fd320048091bf172c07de57a72f",
       "architecture": "x86_64"
     },
@@ -48,6 +52,7 @@
       "version": "dahliaOS-latest",
       "description": "Mobile developer shell for dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/pangolin_mobile",
+      "extRef": "packages",
       "hash": "66792bd5e4ff9c51b5d4bc2875ffea56",
       "architecture": "x86_64"
     },
@@ -58,6 +63,7 @@
       "version": "dahliaOS-latest",
       "description": "Core utilities and desktop environment for dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/pangolin_desktop",
+      "extRef": "https://github.com/dahliaOS/pangolin_desktop/releases/latest/download/io.dahliaos.pangolin_desktop.dap",
       "hash": "1da8dabda4bb56418c8b7101a52f73e5",
       "architecture": "x86_64"
     },
@@ -68,6 +74,7 @@
       "version": "dahliaOS-latest",
       "description": "Recover and repair dahliaOS. This shell should not be distributed in userspace",
       "sourceCode": "https://github.com/dahliaOS/system_recovery",
+      "extRef": "packages",
       "hash": "7546c6957544a6d17363ee1303c549cf",
       "architecture": "x86_64"
     },
@@ -78,6 +85,7 @@
       "version": "dahliaOS-latest",
       "description": "Calculator for dahliaOS - execv errors, installation discouraged",
       "sourceCode": "https://github.com/dahliaOS/calculator",
+      "extRef": "packages",
       "hash": "428f1139cf317807d90a6ecf4c5e8cb7",
       "architecture": "x86_64"
     },
@@ -88,6 +96,7 @@
       "version": "dahliaOS-latest",
       "description": "File manager for dahliaOS - isar errors, installation discouraged",
       "sourceCode": "https://github.com/dahliaOS/files",
+      "extRef": "packages",
       "hash": "d4f75c8846e18a7a6ef3064260140ab8",
       "architecture": "x86_64"
     },
@@ -98,6 +107,7 @@
       "version": "dahliaOS-latest",
       "description": "Access the system shell",
       "sourceCode": "https://github.com/dahliaOS/terminal",
+      "extRef": "packages",
       "hash": "cb1026c8d04d1f6f1e52a12d64ee87c6",
       "architecture": "x86_64"
     },
@@ -108,6 +118,7 @@
       "version": "dahliaOS-latest",
       "description": "Manage virtual machines and containers on dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/graft",
+      "extRef": "packages",
       "hash": "a4be320960022ef0032d091073be9515",
       "architecture": "x86_64"
     },
@@ -118,6 +129,7 @@
       "version": "dahliaOS-latest",
       "description": "Information and guide to dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/welcome",
+      "extRef": "packages",
       "hash": "c9db5999ed92d83d1839497975969285",
       "architecture": "x86_64"
     },
@@ -128,6 +140,7 @@
       "version": "dahliaOS-latest",
       "description": "View and manage processes",
       "sourceCode": "https://github.com/dahliaOS/task_manager",
+      "extRef": "packages",
       "hash": "bed769c64c612e9a9f75c0ef6739756e",
       "architecture": "x86_64"
     },
@@ -138,6 +151,7 @@
       "version": "dahliaOS-latest",
       "description": "Preview files and folders on dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/media",
+      "extRef": "packages",
       "hash": "710c64b6bb32afffddf2878175e09ba8",
       "architecture": "x86_64"
     },
@@ -148,6 +162,7 @@
       "version": "dahliaOS-latest",
       "description": "Browse the web",
       "sourceCode": "https://github.com/dahliaOS/web_browser",
+      "extRef": "packages",
       "hash": "b0f83ea88f3df3df2dc116c1d268778e",
       "architecture": "x86_64"
     },
@@ -158,6 +173,7 @@
       "version": "dahliaOS-latest",
       "description": "View and edit documents",
       "sourceCode": "https://github.com/dahliaOS/text_editor",
+      "extRef": "packages",
       "hash": "7b9403f504cdfaf7d06387207ebce8ce",
       "architecture": "x86_64"
     },
@@ -168,6 +184,7 @@
       "version": "dahliaOS-latest",
       "description": "View and report errors",
       "sourceCode": "https://github.com/dahliaOS/system_logs",
+      "extRef": "packages",
       "hash": "5af776a56cea16bdf444ffc1f32110ec",
       "architecture": "x86_64"
     },
@@ -178,6 +195,7 @@
       "version": "dahliaOS-latest",
       "description": "Clock for dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/clock",
+      "extRef": "packages",
       "hash": "5777256ab96847fc591fde5776031eb8",
       "architecture": "x86_64"
     },
@@ -188,6 +206,7 @@
       "version": "dahliaOS-latest",
       "description": "Developer Options benchmarking tool for dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/dev_options",
+      "extRef": "packages",
       "hash": "8b557ac8105bb492e8a5fe3ad52dfcfa",
       "architecture": "x86_64"
     },
@@ -198,6 +217,7 @@
       "version": "dahliaOS-latest",
       "description": "Gracefully resolve system errors on dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/kernel_panic",
+      "extRef": "packages",
       "hash": "867b4431e57b67b9677f3f5b409a4938",
       "architecture": "x86_64"
     },
@@ -208,6 +228,7 @@
       "version": "123456789",
       "description": "Mobile shell for dahliaOS, written in Flutter",
       "sourceCode": "https://newcastle.lan/git/enterprise-mdm",
+      "extRef": "https://newcastle.lan/mdm/io.dahliaos.enterprisemdm.dap",
       "hash": "null",
       "architecture": "x86_64"
     }

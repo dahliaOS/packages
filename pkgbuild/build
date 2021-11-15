@@ -1,0 +1,71 @@
+#!/bin/bash
+# create the download directory
+mkdir dl
+mkdir output
+cp packages.json output/manifest.json
+touch output/hashes.txt
+cd dl
+echo "Cloning prerequisite: dahliaOS/icons"
+git clone https://github.com/dahliaOS/icons
+#enumerate repositories
+declare -a DAP_FLUTTER_REPOS=(
+"pangolin_desktop"
+"system_recovery"
+"calculator"
+"files"
+"terminal"
+"pangolin_mobile"
+"graft"
+"welcome"
+"task_manager"
+"media"
+"web_browser"
+"text_editor"
+"system_logs"
+"clock"
+"dev_options"
+"kernel_panic"
+)
+distributor='io.dahliaos.'
+declare -a DAP_TEST_REPO=("system_recovery")
+for repo in ${DAP_FLUTTER_REPOS[@]}; do
+   echo "DAP_FLUTTER_GET: Cloning" $repo
+   git clone https://github.com/dahliaOS/$repo
+   echo $repo": Entering build directory"
+   cd $repo
+   pwd
+   #TEMP
+# Create dap manifests and assets
+ #  mkdir dahliaOS
+#cd dahliaOS
+# cp ../../icons/dap/$repo.png $repo.png
+   #TEMP
+   echo $repo": Clearing locks"
+   rm pubspec.lock
+   echo $repo": Compiling for release..."
+   flutter build linux --release --no-sound-null-safety
+#build AppDir in build directory
+mkdir -p build/dahliaOS/x64/release/
+cp -r build/linux/x64/release/bundle/ build/dahliaOS/x64/release/AppDir/
+# For whatever reason, calculator isn't executable even after this, so it has to be made executable again
+cp dahliaOS/AppRun build/dahliaOS/x64/release/AppDir/
+cp dahliaOS/*.desktop build/dahliaOS/x64/release/AppDir/
+cp dahliaOS/$repo.png build/dahliaOS/x64/release/AppDir/
+pwd
+cd build/dahliaOS/x64/release/
+chmod +x AppDir/$repo
+pwd
+ARCH=x86_64 appimagetool AppDir/
+cd ../../../../
+pwd
+cp build/dahliaOS/x64/release/*.AppImage ../../output/$distributor$repo.dap
+cat dahliaOS/appManifest.json >> ../../output/manifest.json
+md5sum ../../output/$distributor$repo.dap >> ../../output/hashes.txt
+#Done  
+ cd ../
+pwd
+echo $distributor$repo": Done."
+done
+cd ../
+pwd
+cat hold.json >> output/manifest.json

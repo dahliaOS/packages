@@ -21,7 +21,7 @@
       "hash": "ce2aafa1862e7c25abe2168ea8945e23",
       "architecture": "x86_64"
     },
-     {
+    {
       "id": "git.dylanaraps.neofetch",
       "altName": "neofetch",
       "realName": "Neofetch",
@@ -31,7 +31,7 @@
       "hash": "1f272c6d11897bfb678b5d6d85e312a9",
       "architecture": "x86_64"
     },
-     {
+    {
       "id": "dev.htop.htop",
       "altName": "htop",
       "realName": "Htop",
@@ -40,16 +40,165 @@
       "sourceCode": "https://github.com/htop-dev/htop",
       "hash": "cfd75fd320048091bf172c07de57a72f",
       "architecture": "x86_64"
-    }
-    ,
-     {
+    },
+    {
       "id": "io.dahliaos.pangolin_mobile",
       "altName": "pangolin_mobile",
       "realName": "Pangolin Mobile",
-      "version": "210402",
-      "description": "Mobile shell for dahliaOS, written in Flutter",
+      "version": "dahliaOS-latest",
+      "description": "Mobile developer shell for dahliaOS",
       "sourceCode": "https://github.com/dahliaOS/pangolin_mobile",
-      "hash": "7cfa9faf50d6a4e4434e4d013f06ecec",
+      "hash": "66792bd5e4ff9c51b5d4bc2875ffea56",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.pangolin_desktop",
+      "altName": "pangolin_desktop",
+      "realName": "Pangolin Desktop",
+      "version": "dahliaOS-latest",
+      "description": "Core utilities and desktop environment for dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/pangolin_desktop",
+      "hash": "1da8dabda4bb56418c8b7101a52f73e5",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.system_recovery",
+      "altName": "system_recovery",
+      "realName": "System Recovery",
+      "version": "dahliaOS-latest",
+      "description": "Recover and repair dahliaOS. This shell should not be distributed in userspace",
+      "sourceCode": "https://github.com/dahliaOS/system_recovery",
+      "hash": "7546c6957544a6d17363ee1303c549cf",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.calculator",
+      "altName": "calculator",
+      "realName": "Calculator",
+      "version": "dahliaOS-latest",
+      "description": "Calculator for dahliaOS - execv errors, installation discouraged",
+      "sourceCode": "https://github.com/dahliaOS/calculator",
+      "hash": "428f1139cf317807d90a6ecf4c5e8cb7",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.files",
+      "altName": "files",
+      "realName": "Files",
+      "version": "dahliaOS-latest",
+      "description": "File manager for dahliaOS - isar errors, installation discouraged",
+      "sourceCode": "https://github.com/dahliaOS/files",
+      "hash": "d4f75c8846e18a7a6ef3064260140ab8",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.terminal",
+      "altName": "terminal",
+      "realName": "Terminal",
+      "version": "dahliaOS-latest",
+      "description": "Access the system shell",
+      "sourceCode": "https://github.com/dahliaOS/terminal",
+      "hash": "cb1026c8d04d1f6f1e52a12d64ee87c6",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.graft",
+      "altName": "graft",
+      "realName": "Graft",
+      "version": "dahliaOS-latest",
+      "description": "Manage virtual machines and containers on dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/graft",
+      "hash": "a4be320960022ef0032d091073be9515",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.welcome",
+      "altName": "welcome",
+      "realName": "Welcome",
+      "version": "dahliaOS-latest",
+      "description": "Information and guide to dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/welcome",
+      "hash": "c9db5999ed92d83d1839497975969285",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.task_manager",
+      "altName": "task_manager",
+      "realName": "Task Manager",
+      "version": "dahliaOS-latest",
+      "description": "View and manage processes",
+      "sourceCode": "https://github.com/dahliaOS/task_manager",
+      "hash": "bed769c64c612e9a9f75c0ef6739756e",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.media",
+      "altName": "media",
+      "realName": "Media",
+      "version": "dahliaOS-latest",
+      "description": "Preview files and folders on dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/media",
+      "hash": "710c64b6bb32afffddf2878175e09ba8",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.web_browser",
+      "altName": "web_browser",
+      "realName": "Web Browser",
+      "version": "dahliaOS-latest",
+      "description": "Browse the web",
+      "sourceCode": "https://github.com/dahliaOS/web_browser",
+      "hash": "b0f83ea88f3df3df2dc116c1d268778e",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.text_editor",
+      "altName": "text_editor",
+      "realName": "Text Editor",
+      "version": "dahliaOS-latest",
+      "description": "View and edit documents",
+      "sourceCode": "https://github.com/dahliaOS/text_editor",
+      "hash": "7b9403f504cdfaf7d06387207ebce8ce",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.system_logs",
+      "altName": "system_logs",
+      "realName": "System Logs",
+      "version": "dahliaOS-latest",
+      "description": "View and report errors",
+      "sourceCode": "https://github.com/dahliaOS/system_logs",
+      "hash": "5af776a56cea16bdf444ffc1f32110ec",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.clock",
+      "altName": "clock",
+      "realName": "Clock",
+      "version": "dahliaOS-latest",
+      "description": "Clock for dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/clock",
+      "hash": "5777256ab96847fc591fde5776031eb8",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.dev_options",
+      "altName": "dev_options",
+      "realName": "Developer Options",
+      "version": "dahliaOS-latest",
+      "description": "Developer Options benchmarking tool for dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/dev_options",
+      "hash": "8b557ac8105bb492e8a5fe3ad52dfcfa",
+      "architecture": "x86_64"
+    },
+    {
+      "id": "io.dahliaos.kernel_panic",
+      "altName": "kernel_panic",
+      "realName": "Kernel Panic",
+      "version": "dahliaOS-latest",
+      "description": "Gracefully resolve system errors on dahliaOS",
+      "sourceCode": "https://github.com/dahliaOS/kernel_panic",
+      "hash": "867b4431e57b67b9677f3f5b409a4938",
       "architecture": "x86_64"
     },
     {
@@ -58,7 +207,7 @@
       "realName": "Enterprise MDM",
       "version": "123456789",
       "description": "Mobile shell for dahliaOS, written in Flutter",
-      "sourceCode": "https://internal.carbon.lan/git/enterprise-mdm",
+      "sourceCode": "https://newcastle.lan/git/enterprise-mdm",
       "hash": "null",
       "architecture": "x86_64"
     }

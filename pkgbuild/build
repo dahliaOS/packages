@@ -66,6 +66,17 @@ md5sum ../../output/$distributor$repo.dap >> ../../output/hashes.txt
 pwd
 echo $distributor$repo": Done."
 done
-cd ../
+
+#manually built applications
+
+git clone https://github.com/dahliaOS/web_runtime
+cd web_runtime
+sh dahliaOS/build
+mv io.dahliaos.web_runtime.dap ../../output/io.dahliaos.web_runtime.dap
+cat dahliaOS/appManifest.json >> ../../output/manifest.json
+md5sum ../../output/io.dahliaos.web_runtime.dap >> ../../output/hashes.txt
+echo "io.dahliaos.web_runtime: done "
+
+cd ../../
 pwd
 cat hold.json >> output/manifest.json

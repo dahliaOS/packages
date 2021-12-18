@@ -231,7 +231,7 @@
       "extRef": "https://newcastle.lan/mdm/io.dahliaos.enterprisemdm.dap",
       "hash": "null",
       "architecture": "x86_64"
-    }
+    },
     {
       "id": "io.dahliaos.web_runtime",
       "altName": "web_runtime",

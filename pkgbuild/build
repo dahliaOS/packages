@@ -69,6 +69,7 @@ done
 
 #manually built applications
 
+# Web Runtime
 git clone https://github.com/dahliaOS/web_runtime
 cd web_runtime
 sh dahliaOS/build
@@ -76,7 +77,18 @@ mv io.dahliaos.web_runtime.dap ../../output/io.dahliaos.web_runtime.dap
 cat dahliaOS/appManifest.json >> ../../output/manifest.json
 md5sum ../../output/io.dahliaos.web_runtime.dap >> ../../output/hashes.txt
 echo "io.dahliaos.web_runtime: done "
+cd ../
 
-cd ../../
+#dap
+git clone https://github.com/dahliaOS/dap
+cd dap
+sh dahliaOS/build
+mv io.dahliaos.dap.dap ../../output/io.dahliaos.dap.dap
+cat dahliaOS/appManifest.json >> ../../output/manifest.json
+md5sum ../../output/io.dahliaos.dap.dap >> ../../output/hashes.txt
+echo "io.dahliaos.dap: done "
+cd ../
+
+cd ../
 pwd
 cat hold.json >> output/manifest.json

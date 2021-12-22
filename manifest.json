@@ -241,6 +241,16 @@
       "sourceCode": "https://github.com/dahliaOS/web_runtime",
       "hash": "ad29b1f1e7effdd3fae523b14c81824f",
       "architecture": "x86_64"
-    }
+    },
+    {
+      "id": "io.dahliaos.dap",
+      "altName": "dap",
+      "realName": "dap",
+      "version": "dahliaOS-latest",
+      "description": "Install packages from the commandline. If you can read this, you are probably using it.",
+      "sourceCode": "https://github.com/dahliaOS/dap",
+      "hash": "b3db62f1324d8f4595d59cd5964d9614",
+      "architecture": "x86_64"
+}
   ]
 }

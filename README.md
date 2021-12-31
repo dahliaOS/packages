@@ -2,6 +2,7 @@
 Package repo for the dahliaOS package manager
 
 TODO:
+p0: Add manifests for a graphical interface, and give dap packages a --dump_json flag to print their graphical manifest to the command line
 Add vscode-server package
 Add development libraries/remote deploy
 Add software update packages

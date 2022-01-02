@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "com.discord.app",
+            "altName": "discord",
+            "realName": "Discord",
+            "version": "webapp",
+            "description": "Chat, Talk & Hangout",
+            "url": "https://discord.com/app",
+            "iconURL": "https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico",
+            "accentColor": "#7289da",
+            "backgroundColor": "#36393e",
+            "titleBarColor": "#282b30",
+            "themeMode": "dark"
+        }
+    ]
+}

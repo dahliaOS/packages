@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "dev.vscode.app",
+            "altName": "vscode",
+            "realName": "Visual Studio Code",
+            "version": "webapp",
+            "description": "Code editing. Redefined.",
+            "url": "https://vscode.dev",
+            "iconURL": "https://vscode.dev/static/stable/favicon.ico",
+            "accentColor": "#18639C",
+            "backgroundColor": "#1E1E1E",
+            "titleBarColor": "#252526",
+            "themeMode": "dark"
+        }
+    ]
+}

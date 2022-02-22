@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "com.google.search",
+            "altName": "google",
+            "realName": "Google",
+            "version": "webapp",
+            "description": "Google Search",
+            "url": "https://google.com/",
+            "iconURL": "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+            "accentColor": "#4c8bf5",
+            "backgroundColor": "#ffffff",
+            "titleBarColor": "#333333",
+            "themeMode": "dark"
+        }
+    ]
+}

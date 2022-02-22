@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "io.dahliaos.documentation",
+            "altName": "docs",
+            "realName": "dahliaOS Documentation",
+            "version": "webapp",
+            "description": "dahliaOS Documentation",
+            "url": "https://docs.dahliaos.io/",
+            "iconURL": "https://dahliaos.io/assets/img/favicon.png",
+            "accentColor": "#ff3d00",
+            "backgroundColor": "#ffffff",
+            "titleBarColor": "#ff3d00",
+            "themeMode": "dark"
+        }
+    ]
+}

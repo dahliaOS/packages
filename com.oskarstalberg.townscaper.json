@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "com.oskarstalberg.townscaper",
+            "altName": "townscaper",
+            "realName": "Townscaper",
+            "version": "webapp",
+            "description": "City builder game",
+            "url": "https://oskarstalberg.com/Townscaper",
+            "iconURL": "https://oskarstalberg.com/Townscaper/TemplateData/favicon.ico",
+            "accentColor": "#23494A",
+            "backgroundColor": "#474951",
+            "titleBarColor": "#81A8AC",
+            "themeMode": "dark"
+        }
+    ]
+}

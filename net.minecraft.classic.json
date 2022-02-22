@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "package": [
+        {
+            "id": "net.minecraft.classic",
+            "altName": "minecraft",
+            "realName": "Minecraft Classic",
+            "version": "webapp",
+            "description": "Minecraft Classic Online",
+            "url": "https://classic.minecraft.net",
+            "iconURL": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/favicon.ico",
+            "accentColor": "#6BC34A",
+            "backgroundColor": "#252525",
+            "titleBarColor": "#3B8526",
+            "themeMode": "dark"
+        }
+    ]
+}
